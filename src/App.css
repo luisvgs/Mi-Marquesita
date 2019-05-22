@@ -1,10 +1,13 @@
 .App{
   min-height: 100vh;
-  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+  background: #E8CBC0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 .search-form{
-  min-height:10vh;
+  min-height:4vh;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -15,6 +18,13 @@
   width:50%;
   border:none;
   padding:10px;
+  margin-right: 4px;
+  
+}
+
+.logo{
+  height:auto;
+  width:200px;
 }
 
 .search-button{
