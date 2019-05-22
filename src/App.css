@@ -13,6 +13,9 @@
   align-items:center;
 }
 
+.links{
+  color:inherit;
+}
 
 .search-bar{
   width:50%;
