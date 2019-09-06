@@ -16,11 +16,5 @@
   <li>React-Bootstrap</li>
 </ul>
 
-#### Run
-<p>If you wish to try the aplication, run de following command:</p>
-<ul>
-  <li>npm install</li>
-</ul>
-
 
 
